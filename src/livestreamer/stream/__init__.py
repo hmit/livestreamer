@@ -3,7 +3,7 @@ from .stream import Stream
 
 from .akamaihd import AkamaiHDStream
 from .hds import HDSStream
-from .hls import HLSStream
+from .hls import HLSStream, HLSStreamWorker, HLSStreamReader, HLSStreamWriter
 from .http import HTTPStream
 from .rtmpdump import RTMPStream
 from .streamprocess import StreamProcess
